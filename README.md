@@ -4,7 +4,7 @@
 
 Imagine you shared (by accident!) the URL to your bank’s web application. Would
 you expect that **anyone** who followed the link should be able to see that you
-bought an extremely expensive $9.50 Greenleaf Juice? We susupect that you, like
+bought an extremely expensive $9.50 Greenleaf Juice? We suspect that you, like
 us, would find that an _extremely_ undesirable outcome! Thankfully that's
 **not** how bank web applications work!
 
@@ -41,7 +41,7 @@ apply.
 3. _Interlude_ At this point the bank knows that they are dealing with a
    _verified entity_. From the perspective of their system, all _verified
    entities_ act with respect to _roles_. At point of **Authentication** the
-   _verified entity's_ collection of _roles_ is _also_ retrived.
+   _verified entity's_ collection of _roles_ is _also_ retrieved.
 4. You then proceed to withdraw enough money for another delicious Greenleaf
    juice. At this point the **Access Policy** ("_As an_ `owner` of an account,
    the `owner` is permitted to withdraw money from that account provided that the
@@ -72,7 +72,7 @@ When you access your bank account on the web you will:
 We can define the four security concepts that help us answer the "who can see
 what" questions as:
 
-* **Identification**: Obtaining and identity claim from the user. (e.g., my
+* **Identification**: Obtaining an identity claim from the user. (e.g., my
   email is,  my name is)
 * **Authentication**: The process of verifying the identity claim of a user.
 * **Access Policy**: An access policy based on the identities and attributes of
