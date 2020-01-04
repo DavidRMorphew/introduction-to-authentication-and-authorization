@@ -23,7 +23,7 @@ problems:
 - Who you claim to be (i.e. **Identification**)
 - Validation that you _are_ you who you claim to be (i.e. **Authentication**)
   and association of _roles_ based on your identity
-- What are given _roles_ allowed to do (i.e. **Access Policy**)
+- What given _roles_ are allowed to do (i.e. **Access Policy**)
 - Mechanisms to enforce the Access Policy (i.e. **Authorization**)
 
 ## Examples of Authentication and Authorization Flows
@@ -75,12 +75,12 @@ what" questions as:
 * **Identification**: Obtaining and identity claim from the user. (e.g., my
   email is,  my name is)
 * **Authentication**: The process of verifying the identity claim of a user.
-* **Access Policy**: An access policy based on the identities and attributes of
+* **Access Policy**: A usage policy based on the identities and attributes of
   the resource being accessed and of the user requesting access.
 * **Authorization**: Access privileges granted to a user or the act of granting
   those privileges.
 
-P.S. The above definitions are fairly abstract, and they may not always 
+P.S. The definitions above are fairly abstract, and they may not always 
 directly map to a specific framework or library functionality. Nevertheless, it's 
 important to have a general understanding of their meaning.
 
